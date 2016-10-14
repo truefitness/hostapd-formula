@@ -1,0 +1,15 @@
+Source: true-hostapd-formula
+Section: unknown
+Priority: optional
+Maintainer: Robert Hedges <rhedges@truefitness.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: git://git.debian.org/collab-maint/true-hostapd-formula.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/true-hostapd-formula.git;a=summary
+
+Package: true-hostapd-formula
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
